@@ -13,6 +13,9 @@
 		02750CFD2038E029007296E0 /* tic_tac_toe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02750CFB2038E029007296E0 /* tic_tac_toe.xcdatamodeld */; };
 		02750CFF2038E029007296E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02750CFE2038E029007296E0 /* Assets.xcassets */; };
 		02750D022038E029007296E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02750D002038E029007296E0 /* LaunchScreen.storyboard */; };
+		02750D0C2038E0B9007296E0 /* Nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 02750D092038E0B8007296E0 /* Nought.png */; };
+		02750D0D2038E0B9007296E0 /* Board.png in Resources */ = {isa = PBXBuildFile; fileRef = 02750D0A2038E0B8007296E0 /* Board.png */; };
+		02750D0E2038E0B9007296E0 /* Cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 02750D0B2038E0B8007296E0 /* Cross.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		02750CFE2038E029007296E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02750D012038E029007296E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02750D032038E029007296E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02750D092038E0B8007296E0 /* Nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nought.png; sourceTree = "<group>"; };
+		02750D0A2038E0B8007296E0 /* Board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Board.png; sourceTree = "<group>"; };
+		02750D0B2038E0B8007296E0 /* Cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cross.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,9 @@
 			children = (
 				02750CF32038E029007296E0 /* tic tac toe */,
 				02750CF22038E029007296E0 /* Products */,
+				02750D0A2038E0B8007296E0 /* Board.png */,
+				02750D0B2038E0B8007296E0 /* Cross.png */,
+				02750D092038E0B8007296E0 /* Nought.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,8 +135,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02750D0D2038E0B9007296E0 /* Board.png in Resources */,
 				02750D022038E029007296E0 /* LaunchScreen.storyboard in Resources */,
 				02750CFF2038E029007296E0 /* Assets.xcassets in Resources */,
+				02750D0C2038E0B9007296E0 /* Nought.png in Resources */,
+				02750D0E2038E0B9007296E0 /* Cross.png in Resources */,
 				02750CFA2038E029007296E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
